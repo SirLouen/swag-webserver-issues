@@ -22,6 +22,7 @@ services:
       - URL=example.com
       - VALIDATION=dns
       - DNSPLUGIN=bunny
+      - SUBDOMAINS=wildcard
     volumes:
       - $PWD/config:/config
       - $PWD/site/:/var/www/html
